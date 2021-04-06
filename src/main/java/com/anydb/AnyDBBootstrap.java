@@ -7,6 +7,7 @@ package com.anydb;
 public class AnyDBBootstrap {
 
     public static void main(String[] args) {
-
+        AnyDB anyDB = AnyDB.getInstance();
+        anyDB.startup();
     }
 }
